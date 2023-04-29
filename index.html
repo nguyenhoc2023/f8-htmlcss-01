@@ -20,26 +20,29 @@
   </head>
   <body>
     <main>
-      <!-- header -->
-      <header class="header">
+      <div class="navigation">
         <div class="content">
           <nav class="navbar">
             <!-- logo -->
-            <img src="assets/img/Logo.svg" alt="besnik." />
+            <a href="#"><img src="assets/img/Logo.svg" alt="besnik." /></a>
             <!-- navbar -->
             <ul>
-              <li><a href="#!">Home</a></li>
-              <li><a href="#!">Features</a></li>
-              <li><a href="#!">Services</a></li>
-              <li><a href="#!">Resources</a></li>
-              <li><a href="#!">Contact</a></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#resources">Resources</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="actions">
               <a class="action" href="#!">Sign in</a>
               <a class="btn btn-action" href="#!">Sign up</a>
             </div>
           </nav>
-
+        </div>
+      </div>
+      <!-- header -->
+      <header id="home" class="header">
+        <div class="content">
           <!-- info -->
           <div class="hero">
             <div class="info">
@@ -96,7 +99,7 @@
 
       <!-- guides -->
 
-      <div class="guides">
+      <div id="services" class="guides">
         <div class="content">
           <div class="explain">
             <h2>How its works?</h2>
@@ -149,7 +152,7 @@
         </div>
       </div>
       <!--       featured      -->
-      <div class="featured">
+      <div id="features" class="featured">
         <div class="content">
           <header>
             <h2 class="sub-title">Featured Properties</h2>
@@ -262,7 +265,7 @@
         </div>
       </div>
       <!-- ========      Stats      ======= -->
-      <div class="stats">
+      <div id="resources" class="stats">
         <div class="content">
           <div class="row">
             <div class="img-block">
@@ -392,7 +395,7 @@
         </div>
       </div>
       <!--  ========= subscription ======== -->
-      <div class="subscription">
+      <div id="contact" class="subscription">
         <div class="content">
           <div class="body">
             <div class="info">

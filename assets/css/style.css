@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -44,9 +49,24 @@ a {
   -webkit-line-clamp: var(--line-clamp, 2);
   overflow: hidden;
 }
+
+/* navigation */
+.navigation {
+  padding-top: 38px;
+  background-color: #e6f0ff;
+  position: sticky;
+  z-index: 1;
+  top: -26px;
+}
+
+.navbar {
+  padding-bottom: 15px;
+}
+
 /* header */
+
 .header {
-  height: 100vh;
+  height: calc(100vh - 90px);
   background-color: #e6f0ff;
   position: relative;
   padding-top: 40px;
